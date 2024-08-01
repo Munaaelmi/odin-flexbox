@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  box-sizing: border-box;
+}
+
+nav .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  color: #f9f9f8;
+  font-size: 24px;
+  margin-left: 460px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: 470px;
+}
+ul a {
+  text-decoration: none;
+  color: #e5e7eb;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+nav {
+  background: #1f2937;
+  height: 100px;
+  padding: 10px 20px;
+}
+img {
+  width: 500px;
+  height: 250px;
+}
+.hero-container {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 60px;
+}
+.hero {
+  background: #1f2937;
+  height: 310px;
+}
+.hero .info .hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9f9f8;
+}
+.info .hero-main-text {
+  margin-bottom: 10px;
+  width: 340px;
+}
+.info .hero-info-text {
+  font-size: 16px;
+  color: #e5e7eb;
+  width: 400px;
+}
+
+.info .signUpBtn {
+  background: #3882f6;
+  border: none;
+  border-radius: 8px;
+  color: #f9f9f8;
+  padding: 8px 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 7px;
+  margin-left: 25px;
+  margin-bottom: 8px;
+}
+.img-text-container {
+  width: 150px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.quote-container {
+  background: #e5e7eb;
+  height: 280px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  width: 41%;
+}
+.quote-by {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cta-title {
+  font-weight: bold;
+}
+.cta-info {
+  font-weight: lighter;
+}
+
+.cta {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-container {
+  background: #3882f6;
+  width: 50%;
+  height: 115px;
+  border-radius: 7px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.cta button {
+  background: #3882f6;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 6px 29px;
+  color: #fff;
+  cursor: pointer;
+  align-self: center;
+}
+
+footer .copyright {
+  height: 70px;
+  background: #1f2937;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+}
